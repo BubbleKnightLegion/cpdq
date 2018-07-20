@@ -1,0 +1,79 @@
+.list-title {
+  margin-bottom: 1.15rem;
+}
+.list-title h3 {
+  font-size: 1rem;
+}
+.list-title span {
+  color: #646464;
+  font-size: 0.7rem;
+  padding-top: 0.2rem;
+}
+.list-eat li {
+  width: 11.25rem;
+  height: 6.7rem;
+  float: left;
+  line-height: 6.7rem;
+  text-align: center;
+  color: #fff;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  font-size: 18px;
+  margin-right: 0.75rem;
+}
+
+.small li {
+  width: 7.475rem !important;
+  position: relative;
+  margin-top: 87px;
+}
+
+.small span {
+  position: absolute;
+  bottom: -20px;
+}
+
+.list-item {
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.list-eat {
+  width: 2000%;
+}
+
+.list-eat li:first-child {
+  background: url("./../img/list-1.jpg")
+    no-repeat;
+  background-size: cover;
+}
+.list-eat li:nth-child(2) {
+  background: url("./../img/list-2.jpg")
+    no-repeat;
+  background-size: cover;
+}
+.list-eat li:nth-child(3) {
+  background: url("./../img/list-3.jpg")
+    no-repeat;
+  background-size: cover;
+}
+
+.list-eat li:last-child() {
+  margin-right: 0;
+}
+.item-media img{
+  width: 6rem;
+  height: 5rem;
+  border-radius: .4rem;
+}
+.item-title{
+  color: #000;
+  font-size: 1rem;
+  font-weight: bold !important;
+}
+.item-subtitle{
+  color: #999;
+  margin-top: .6rem;
+  box-sizing: border-box;
+}
+
