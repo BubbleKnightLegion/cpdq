@@ -1,10 +1,10 @@
 var config = {
   
   // 菜谱大全
-  query: "https://apis.juhe.cn/cook/query.php",
-  category: "https://apis.juhe.cn/cook/category?key=",
+  query: "http://apis.juhe.cn/cook/query.php",
+  category: "http://apis.juhe.cn/cook/category?key=",
   AppKey: "36aeaf585dfb772e6ce2d751182dc6f7",
-  index: "https://apis.juhe.cn/cook/index",
+  index: "http://apis.juhe.cn/cook/index",
   SetTheme: function() {
     if (localStorage.getItem("theme") == null) {
     } else {
